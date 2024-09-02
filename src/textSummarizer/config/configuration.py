@@ -1,6 +1,6 @@
-from textSummarizer.constants import *
+from constants import *
 from textSummarizer.utils.common import read_yaml, create_directories
-from textSummarizer.entity import (DataIngestionConfig)
+from entity import (DataIngestionConfig)
 
 class ConfigurationManager:
     def __init__(self, config_filepath=CONFIG_FILE_PATH, params_filepath=PARAMS_FILE_PATH):

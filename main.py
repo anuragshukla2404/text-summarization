@@ -1,4 +1,4 @@
-from src.textSummarizer.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
+from textSummarizer.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from textSummarizer.logging import logger
 
 STAGE_NAME = "Data Ingestion Stage"
