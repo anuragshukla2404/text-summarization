@@ -8,3 +8,6 @@
 6. update the pipeline
 7. update the main.py
 8. update the app.py
+
+#Create ECR Repo
+ - 953179995340.dkr.ecr.us-west-2.amazonaws.com/test
