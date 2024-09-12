@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text summarization</title>
+</head>
+<body style="background-color:lightgreen;">
+    <center> <h1 style="background-color:DodgerBlue;"> Text Summarization </h1></center><br>
+    <form method="post">
+        <center><textarea name='textarea' id="form-control1" placeholder="Enter your text here..." id="floatingTextareaDisabled", rows="10", cols="60", style='border-color: blue;'>
+            {{text}}
+        </textarea>
+        <label for="floatingTextarea"></label><center><br>
+        <center><button type="submit">Submit</button>
+        </center><br>
+    </form>
+        <center><textarea name='textarea1' placeholder="summarized text" id="floatingTextareaDisabled", rows="10", cols="50" style='border-color:orange;'>
+            {{output}}
+        </textarea>
+        <label for="floatingTextarea"></label><center>
+</body>
+</html>
