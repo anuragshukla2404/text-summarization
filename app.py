@@ -5,7 +5,7 @@ from flask import Flask,render_template,request,jsonify
 from transformers import AutoTokenizer
 from transformers import pipeline
 from src.textSummarizer.config.configuration import ConfigurationManager
-import numpy as np
+import uvicorn
 
 app = Flask(__name__)
 
@@ -43,4 +43,4 @@ async def prediction():
     
     
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080)
+    uvicorn.run(app,host='0.0.0.0', port=8080)
